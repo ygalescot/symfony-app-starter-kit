@@ -1,6 +1,4 @@
 .idea/
-docker/db/mysql/*
-!docker/db/mysql/.gitkeep
 
 ###> symfony/phpunit-bridge ###
 .phpunit

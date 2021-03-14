@@ -10,7 +10,7 @@ services:
         ports:
             - 3306:3306
         volumes:
-            - ./docker/db/mysql:/var/lib/mysql
+            - dbdata:/var/lib/mysql
 
     php:
         container_name: php
@@ -28,3 +28,7 @@ services:
             - .:/var/www/html
         ports:
             - 8080:80
+
+volumes:
+    dbdata:
+        driver: local
