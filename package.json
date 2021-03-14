@@ -1,0 +1,11 @@
+{
+  "name": "symfony-app-starter-kit",
+  "version": "0.0.1",
+  "description": "A starter kit for Symfony",
+  "author": "Youri Galescot",
+  "license": "MIT",
+  "devDependencies": {
+    "@symfony/webpack-encore": "^1.1.2",
+    "webpack-notifier": "^1.6.0"
+  }
+}
